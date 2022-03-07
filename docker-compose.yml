@@ -17,7 +17,6 @@ services:
         environment:
             WWWUSER: '${WWWUSER}'
         volumes:
-            - './:/code'
             - '${APPS}:/code'
         networks:
             - sail
